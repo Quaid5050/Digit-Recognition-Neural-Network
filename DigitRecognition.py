@@ -55,12 +55,10 @@ while os.path.isfile('digits/digit{}.png'.format(image_number)):
         print("The number is probably a {}".format(np.argmax(prediction)))
         plt.imshow(img[0], cmap=plt.cm.binary)
         plt.show()
-        break
-        # image_number += 1
+        image_number += 1
     except:
         print("Error reading image! Proceeding with next image...")
-        # image_number += 1
-#
+        image_number += 1
 
 # for single image
 # img = cv2.imread('digits/digit0.png')
