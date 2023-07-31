@@ -62,6 +62,22 @@ while os.path.isfile('digits/digit{}.png'.format(image_number)):
         # image_number += 1
 #
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # for single image
 # img = cv2.imread('digits/digit0.png')
 # img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)  # Convert image to grayscale
